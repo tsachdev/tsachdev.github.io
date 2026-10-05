@@ -1,0 +1,6 @@
+body { font-family: -apple-system, "Helvetica Neue", Arial, sans-serif; max-width: 680px; margin: 48px auto; padding: 0 16px; color: #2c2c2a; background: #faf9f6; line-height: 1.55; }
+h1 { font-size: 1.6rem; margin-bottom: 0.2rem; }
+h2 { font-size: 1.1rem; margin-top: 1.8rem; }
+.sub { color: #5f5e5a; margin-top: 0; }
+nav a { margin-right: 1rem; }
+footer { margin-top: 3rem; color: #5f5e5a; font-size: 0.9rem; }

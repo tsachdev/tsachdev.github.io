@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Graduation Ledger gate</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav><a href="./">Home</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
+<h1>Graduation Ledger gate</h1>
+<p class="sub">A personal tool that lets AI agents help with one Gmail inbox, only with its owner's approval.</p>
+
+<p>The Graduation Ledger gate sits between AI email assistants and a single Gmail account, owned and run by Tushar Sachdev for his own mailbox. It is not offered to anyone else, and nobody else can sign in to it.</p>
+
+<h2>What it does</h2>
+<ul>
+<li>An assistant connected to the gate can read unread messages in the inbox.</li>
+<li>When the assistant wants to change something (mark a message read, move it to the trash, or save a draft reply), the gate holds the request. Nothing happens in Gmail until the owner approves that request on a private page with his passkey.</li>
+<li>Every request and decision is written to a log, so the owner can see over time which kinds of action an assistant gets right.</li>
+</ul>
+
+<h2>Google access</h2>
+<p>The gate uses one Google permission, Gmail "read, compose and modify" (gmail.modify), for the owner's own account only. It never sends email and never deletes anything permanently; trashed messages stay recoverable in Gmail for 30 days.</p>
+
+<p>See the <a href="privacy.html">privacy policy</a> and <a href="terms.html">terms of service</a>.</p>
+
+<footer>Contact: tushar.sachdev@gmail.com</footer>
+</body>
+</html>
